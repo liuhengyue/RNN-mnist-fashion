@@ -3,6 +3,7 @@
 [![Gitlab](https://img.shields.io/badge/Gitlab-fashion_mnist-blue.svg)](http://gitlab.icenter.tsinghua.edu.cn/qy-chen17/RNN-fashion-classification)
 [![Source](https://img.shields.io/badge/Source-fashion_mnist-green.svg)](https://github.com/zalandoresearch/fashion-mnist/)
 [![Data](https://img.shields.io/badge/Data-fashion_mnist-yellow.svg)](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/)
+[![Tutorial_Source](https://img.shields.io/badge/Tutorial_Source-mnist-purple.svg)](https://www.youtube.com/watch?v=SeffmcG42SY&t=384s)
 
 
 <details><summary>Table of Contents</summary><p>
