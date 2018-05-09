@@ -7,9 +7,11 @@
 
 
 <details><summary>Table of Contents</summary><p>
+
 * [Introduction](#introduction)
 * [Get the Data](#get-the-data)
 * [Using RNN to classify Fashion-MNIST](#using-rnn-to-classify-fashion-mnist)
+
 </p></details><p></p>
 
 ## Introduction
