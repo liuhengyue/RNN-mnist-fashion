@@ -11,6 +11,7 @@
 * [Introduction](#introduction)
 * [Get the Data](#get-the-data)
 * [Using RNN to classify Fashion-MNIST](#using-rnn-to-classify-fashion-mnist)
+* [Tensorboard](tensorborad)
 
 </p></details><p></p>
 
@@ -70,3 +71,14 @@ step = 28
 pixel_size = 28
 class_size = 10
 ```
+
+## Tensorboard
+By typing the below code after running the `mnist-fashion.py`, you can generate the tensorboard image
+```bash
+tensorboard --logdir .
+```
+This is a preview of how the RNN graph is like:
+
+<img width="568" alt="2018-05-09 10 07 47" src="https://user-images.githubusercontent.com/30227868/39819253-9134da06-53d5-11e8-85e8-a61d8e122b90.png">
+<img width="400" alt="2018-05-09 10 07 55" src="https://user-images.githubusercontent.com/30227868/39819272-9a17bbf2-53d5-11e8-8300-12c39590ec7c.png">
+
