@@ -11,7 +11,7 @@
 * [Introduction](#introduction)
 * [Get the Data](#get-the-data)
 * [Using RNN to classify Fashion-MNIST](#using-rnn-to-classify-fashion-mnist)
-* [Tensorboard](tensorborad)
+* [Tensorboard](#tensorborad)
 
 </p></details><p></p>
 

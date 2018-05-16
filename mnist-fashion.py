@@ -47,8 +47,6 @@ biases = {
 }
 
 
-writer = tf.summary.FileWriter('.')
-writer.add_graph(tf.get_default_graph())
 
 def RNN(X, weights, biases):
     # hidden layer for input to cell
@@ -99,13 +97,19 @@ def RNN(X, weights, biases):
 
     return results
 
-
 pred = RNN(x, weights, biases)
 cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=pred, labels=y))
 train_op = tf.train.AdamOptimizer(lr).minimize(cost)
 
 correct_pred = tf.equal(tf.argmax(pred, 1), tf.argmax(y, 1))
 accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
+
+
+# tensorboard
+writer = tf.summary.FileWriter('.')
+writer.add_graph(tf.get_default_graph())
+
+
 
 with tf.Session() as sess:
     # tf.initialize_all_variables() no long valid from
