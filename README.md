@@ -21,7 +21,7 @@
 
 这个数据集的样子大致如下（每个类别占三行）：
 
-![](https://kaggle2.blob.core.windows.net/datasets-images/2243/3791/9384af51de8baa77f6320901f53bd26b/data-original.png)
+![](https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/doc/img/fashion-mnist-sprite.png)
 
 
 ## Get the Data
